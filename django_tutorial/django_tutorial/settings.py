@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-4i=j29$yp0i=*k7_y!*$$#+k907=&)%h4kko$qikm!o6nb(191
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0:90']
 
 
 # Application definition
@@ -84,10 +84,10 @@ WSGI_APPLICATION = 'django_tutorial.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'laysifDB',
+        'NAME': 'LaysifDB',
         'USER': 'admin',
         'PASSWORD': 'command123',
-        'HOST': 'laysifdb.c0eeq79ih0yi.us-west-2.rds.amazonaws.com',
+        'HOST': 'mysql-test.cjs4sfybltv2.us-west-2.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
